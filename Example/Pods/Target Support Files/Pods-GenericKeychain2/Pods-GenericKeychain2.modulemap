@@ -1,0 +1,6 @@
+framework module Pods_GenericKeychain2 {
+  umbrella header "Pods-GenericKeychain2-umbrella.h"
+
+  export *
+  module * { export * }
+}
