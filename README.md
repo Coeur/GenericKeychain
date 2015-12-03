@@ -1,6 +1,5 @@
 # AppleGenericKeychain
 
-[![CI Status](http://img.shields.io/travis/Coeur/GenericKeychain.svg?style=flat)](https://travis-ci.org/Coeur/GenericKeychain)
 [![Version](https://img.shields.io/cocoapods/v/AppleGenericKeychain.svg?style=flat)](http://cocoapods.org/pods/AppleGenericKeychain)
 [![License](https://img.shields.io/cocoapods/l/AppleGenericKeychain.svg?style=flat)](http://cocoapods.org/pods/AppleGenericKeychain)
 [![Platform](https://img.shields.io/cocoapods/p/AppleGenericKeychain.svg?style=flat)](http://cocoapods.org/pods/AppleGenericKeychain)
