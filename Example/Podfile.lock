@@ -1,5 +1,5 @@
 PODS:
-  - AppleGenericKeychain (1.2.0)
+  - AppleGenericKeychain (1.2)
 
 DEPENDENCIES:
   - AppleGenericKeychain (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AppleGenericKeychain: 18529f3418caaa3ddd7a62a6279995f9636a3e67
+  AppleGenericKeychain: 3b7135f12a9a1cfe4ba2d3c253b41c6a103ebd00
 
 COCOAPODS: 0.39.0

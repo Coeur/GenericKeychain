@@ -44,12 +44,12 @@ The sample is written to ignore the access group if built for the simulator.
 ================================================================================
 BUILD REQUIREMENTS:
 
-iOS 4 SDK
+iOS 8 SDK
 
 ================================================================================
 RUNTIME REQUIREMENTS:
 
-iOS 3.2 or later
+iOS 5.1 or later
 
 ================================================================================
 PACKAGING LIST:
@@ -73,6 +73,9 @@ The nib file containing the main window and the view controllers used in the app
 
 ================================================================================
 CHANGES FROM PREVIOUS VERSIONS:
+
+Version 1.2 Coeur
+    Fixed Xcode warnings and upgraded project to build with the latest iOS SDK.
 
 Version 1.2
 	Fixed minor memory leak and upgraded project to build with the iOS 4 SDK.

@@ -79,7 +79,7 @@
     detailViewController.accountNumberItem = wrapper;
     [wrapper release];
 
-    [window setRootViewController:navigationController];
+    window.rootViewController = navigationController;
     [window makeKeyAndVisible];
 }
 
