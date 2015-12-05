@@ -13,12 +13,11 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		3076250C0DCF9C26000C2DC4 /* EditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076250B0DCF9C26000C2DC4 /* EditorController.m */; };
 		309905A10DF6082100331083 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3099059F0DF6082100331083 /* MainWindow.xib */; };
-		4A33F3AA0DC14C5E00DB5950 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A33F3A90DC14C5E00DB5950 /* KeychainItemWrapper.m */; };
 		4AFC07D30DC14824003666A7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFC07D20DC14824003666A7 /* Security.framework */; };
 		4AFC08090DC148ED003666A7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC08010DC148ED003666A7 /* DetailViewController.m */; };
 		4AFC080A0DC148ED003666A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC08030DC148ED003666A7 /* AppDelegate.m */; };
-		70EFABC5523C5A5588F2ADB7 /* Pods_GenericKeychain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D26D6BF1CA1C3D4AC6A0D114 /* Pods_GenericKeychain.framework */; };
-		901DA3D448C57146AAA319B3 /* Pods_GenericKeychain2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2D83AD78AD1EB389D202F2 /* Pods_GenericKeychain2.framework */; };
+		6C9D4DFD873813E51AC36629 /* libPods-GenericKeychain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D16FD6941D5178A345045B3 /* libPods-GenericKeychain.a */; };
+		7EAF9B05766C26533A8A01B8 /* libPods-GenericKeychain2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E09114BC239016CD52E527B8 /* libPods-GenericKeychain2.a */; };
 		BF063AFF11CC031A009EDACA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF063AFE11CC031A009EDACA /* Default.png */; };
 		BF063B0911CC0518009EDACA /* Default2.png in Resources */ = {isa = PBXBuildFile; fileRef = BF063B0711CC0518009EDACA /* Default2.png */; };
 		BF0CAFA011E66FB300FBB82B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0CAF9911E66FB300FBB82B /* Icon-72.png */; };
@@ -38,7 +37,6 @@
 		BF4B93220F8ABE3600E4CD44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		BF4B93230F8ABE3600E4CD44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC08010DC148ED003666A7 /* DetailViewController.m */; };
 		BF4B93240F8ABE3600E4CD44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFC08030DC148ED003666A7 /* AppDelegate.m */; };
-		BF4B93250F8ABE3600E4CD44 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A33F3A90DC14C5E00DB5950 /* KeychainItemWrapper.m */; };
 		BF4B93270F8ABE3600E4CD44 /* EditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3076250B0DCF9C26000C2DC4 /* EditorController.m */; };
 		BF4B93290F8ABE3600E4CD44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		BF4B932A0F8ABE3600E4CD44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -60,13 +58,12 @@
 		307625DF0DCFAEB4000C2DC4 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe.txt; path = GenericKeychain/ReadMe.txt; sourceTree = "<group>"; };
 		309905A00DF6082100331083 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* GenericKeychain_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericKeychain_Prefix.pch; sourceTree = "<group>"; };
-		4A33F3A80DC14C5E00DB5950 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		4A33F3A90DC14C5E00DB5950 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		4AFC07D20DC14824003666A7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4AFC08010DC148ED003666A7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4AFC08020DC148ED003666A7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4AFC08030DC148ED003666A7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4AFC08040DC148ED003666A7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D16FD6941D5178A345045B3 /* libPods-GenericKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericKeychain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9609F2E4B73608D7030B3547 /* Pods-GenericKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericKeychain.release.xcconfig"; path = "Pods/Target Support Files/Pods-GenericKeychain/Pods-GenericKeychain.release.xcconfig"; sourceTree = "<group>"; };
 		B0927C1778EC18A742878150 /* Pods-GenericKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenericKeychain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GenericKeychain/Pods-GenericKeychain.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,8 +84,7 @@
 		BF4B93510F8ABFA900E4CD44 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow2.xib; sourceTree = "<group>"; };
 		BF4B93640F8AC0D900E4CD44 /* Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 		BFC6BB2F0F8A8D3A00710EDC /* KeychainAccessGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeychainAccessGroups.plist; sourceTree = "<group>"; };
-		D26D6BF1CA1C3D4AC6A0D114 /* Pods_GenericKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE2D83AD78AD1EB389D202F2 /* Pods_GenericKeychain2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenericKeychain2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09114BC239016CD52E527B8 /* libPods-GenericKeychain2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GenericKeychain2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +96,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
 				4AFC07D30DC14824003666A7 /* Security.framework in Frameworks */,
-				70EFABC5523C5A5588F2ADB7 /* Pods_GenericKeychain.framework in Frameworks */,
+				6C9D4DFD873813E51AC36629 /* libPods-GenericKeychain.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +108,7 @@
 				BF4B932A0F8ABE3600E4CD44 /* UIKit.framework in Frameworks */,
 				BF4B932B0F8ABE3600E4CD44 /* CoreGraphics.framework in Frameworks */,
 				BF4B932C0F8ABE3600E4CD44 /* Security.framework in Frameworks */,
-				901DA3D448C57146AAA319B3 /* Pods_GenericKeychain2.framework in Frameworks */,
+				7EAF9B05766C26533A8A01B8 /* libPods-GenericKeychain2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,8 +120,6 @@
 			children = (
 				4AFC08040DC148ED003666A7 /* AppDelegate.h */,
 				4AFC08030DC148ED003666A7 /* AppDelegate.m */,
-				4A33F3A80DC14C5E00DB5950 /* KeychainItemWrapper.h */,
-				4A33F3A90DC14C5E00DB5950 /* KeychainItemWrapper.m */,
 				4AFC08020DC148ED003666A7 /* DetailViewController.h */,
 				4AFC08010DC148ED003666A7 /* DetailViewController.m */,
 				3076250A0DCF9C26000C2DC4 /* EditorController.h */,
@@ -193,8 +187,8 @@
 				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
-				D26D6BF1CA1C3D4AC6A0D114 /* Pods_GenericKeychain.framework */,
-				EE2D83AD78AD1EB389D202F2 /* Pods_GenericKeychain2.framework */,
+				6D16FD6941D5178A345045B3 /* libPods-GenericKeychain.a */,
+				E09114BC239016CD52E527B8 /* libPods-GenericKeychain2.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -461,7 +455,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				4AFC08090DC148ED003666A7 /* DetailViewController.m in Sources */,
 				4AFC080A0DC148ED003666A7 /* AppDelegate.m in Sources */,
-				4A33F3AA0DC14C5E00DB5950 /* KeychainItemWrapper.m in Sources */,
 				3076250C0DCF9C26000C2DC4 /* EditorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +466,6 @@
 				BF4B93220F8ABE3600E4CD44 /* main.m in Sources */,
 				BF4B93230F8ABE3600E4CD44 /* DetailViewController.m in Sources */,
 				BF4B93240F8ABE3600E4CD44 /* AppDelegate.m in Sources */,
-				BF4B93250F8ABE3600E4CD44 /* KeychainItemWrapper.m in Sources */,
 				BF4B93270F8ABE3600E4CD44 /* EditorController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +511,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GenericKeychain/GenericKeychain_Prefix.pch;
 				INFOPLIST_FILE = GenericKeychain/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = GenericKeychain;
 			};
 			name = Debug;
@@ -532,6 +525,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GenericKeychain/GenericKeychain_Prefix.pch;
 				INFOPLIST_FILE = GenericKeychain/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = GenericKeychain;
 			};
 			name = Release;
@@ -547,6 +541,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GenericKeychain/GenericKeychain_Prefix.pch;
 				INFOPLIST_FILE = GenericKeychain/Info2.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = GenericKeychain2;
 			};
 			name = Debug;
@@ -560,6 +555,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = GenericKeychain/GenericKeychain_Prefix.pch;
 				INFOPLIST_FILE = GenericKeychain/Info2.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = GenericKeychain2;
 			};
 			name = Release;
@@ -568,12 +564,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -584,12 +580,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 			};

@@ -190,15 +190,17 @@ Keychain API expects as a validly constructed container class.
 
 - (void)resetKeychainItem
 {
-	OSStatus junk = noErr;
-    if (!keychainItemData) 
+    if (!keychainItemData)
     {
         self.keychainItemData = [NSMutableDictionary dictionary];
     }
     else if (keychainItemData)
     {
         NSMutableDictionary *tempDictionary = [self dictionaryToSecItemFormat:keychainItemData];
-		junk = SecItemDelete((CFDictionaryRef)tempDictionary);
+#if !defined(NS_BLOCK_ASSERTIONS)
+        OSStatus junk =
+#endif
+		SecItemDelete((CFDictionaryRef)tempDictionary);
         NSAssert( junk == noErr || junk == errSecItemNotFound, @"Problem deleting current dictionary." );
     }
     
@@ -269,7 +271,6 @@ Keychain API expects as a validly constructed container class.
 {
     NSDictionary *attributes = NULL;
     NSMutableDictionary *updateItem = NULL;
-	OSStatus result;
     
     if (SecItemCopyMatching((CFDictionaryRef)genericPasswordQuery, (CFTypeRef *)&attributes) == noErr)
     {
@@ -299,13 +300,19 @@ Keychain API expects as a validly constructed container class.
         
         // An implicit assumption is that you can only update a single item at a time.
 		
-        result = SecItemUpdate((CFDictionaryRef)updateItem, (CFDictionaryRef)tempCheck);
+#if !defined(NS_BLOCK_ASSERTIONS)
+        OSStatus result =
+#endif
+        SecItemUpdate((CFDictionaryRef)updateItem, (CFDictionaryRef)tempCheck);
 		NSAssert( result == noErr, @"Couldn't update the Keychain Item." );
     }
     else
     {
         // No previous item found; add the new one.
-        result = SecItemAdd((CFDictionaryRef)[self dictionaryToSecItemFormat:keychainItemData], NULL);
+#if !defined(NS_BLOCK_ASSERTIONS)
+        OSStatus result =
+#endif
+        SecItemAdd((CFDictionaryRef)[self dictionaryToSecItemFormat:keychainItemData], NULL);
 		NSAssert( result == noErr, @"Couldn't add the Keychain Item." );
     }
 }
