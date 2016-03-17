@@ -1,10 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
 #use_frameworks!
 
-target 'GenericKeychain', :exclusive => true do
+def default_pods
   pod "AppleGenericKeychain", :path => "../"
 end
 
-target 'GenericKeychain2', :exclusive => true do
-  pod "AppleGenericKeychain", :path => "../"
+target 'GenericKeychain' do
+    default_pods
+end
+
+target 'GenericKeychain2' do
+    default_pods
 end

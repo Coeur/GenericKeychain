@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DE940A240972F352C40D9EF4'
+               BlueprintIdentifier = '513E17980ADBD8A6D4415374'
                BlueprintName = 'AppleGenericKeychain'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libAppleGenericKeychain.a'>
