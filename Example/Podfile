@@ -1,14 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
-#use_frameworks!
+platform :ios, '8.0'
+use_frameworks!
 
-def default_pods
+abstract_target 'default_pods' do
   pod "AppleGenericKeychain", :path => "../"
-end
 
-target 'GenericKeychain' do
-    default_pods
-end
-
-target 'GenericKeychain2' do
-    default_pods
+  target 'GenericKeychain1'
+  target 'GenericKeychain2'
 end

@@ -25,4 +25,4 @@ Apple
 
 ## License
 
-AppleGenericKeychain is available under the Apple license. See the LICENSE file for more info.
+AppleGenericKeychain is available under the Apple license. See the LICENSE.txt file for more info.

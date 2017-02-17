@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double Pods_default_pods_GenericKeychain1VersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_default_pods_GenericKeychain1VersionString[];
+

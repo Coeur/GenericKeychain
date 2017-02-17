@@ -1,0 +1,6 @@
+framework module AppleGenericKeychain {
+  umbrella header "AppleGenericKeychain-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,3 +10,7 @@
 #endif
 #endif
 
+
+FOUNDATION_EXPORT double AppleGenericKeychainVersionNumber;
+FOUNDATION_EXPORT const unsigned char AppleGenericKeychainVersionString[];
+
